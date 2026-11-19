@@ -42,6 +42,6 @@ const link = computed(() => {
     </a>
     <i v-if="fn.external" i-carbon-launch class="opacity-50 text-0.7rem" />
     <span op50>-</span>
-    <span class="whitespace-wrap" v-html="renderMarkdown(fn.description)" />
+    <span class="whitespace-wrap break-anywhere" v-html="renderMarkdown(fn.description)" />
   </div>
 </template>

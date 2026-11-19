@@ -148,7 +148,7 @@ function toggleSort(method: string) {
     <div opacity="80" text="sm">
       Filters
     </div>
-    <div flex="~ gap-4">
+    <div flex="~ wrap gap-x-4 gap-y-2">
       <label class="checkbox">
         <input v-model="hasComponent" type="checkbox">
         <span>Has Component</span>
